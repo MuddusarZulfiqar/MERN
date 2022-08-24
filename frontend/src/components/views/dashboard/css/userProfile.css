@@ -1,0 +1,11 @@
+.userProfile-nav ul li a {
+    width: 100%;
+    padding: 20px 36px;
+    display: inline-block;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.userProfile-nav ul li a.active,.userProfile-nav ul li a.active:hover{
+    background-color: #f63440;
+    color: #fff;  
+}

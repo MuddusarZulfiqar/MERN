@@ -1,0 +1,29 @@
+.search-result-item{
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+    transition: 0.5s ease all;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+}
+.search-result-item-right {
+    margin-left: 30px;
+}
+.search-result-item:hover{
+    transform: translateY(-10px);
+}
+.search-result-item .search-result-item-title{
+    font-size: 16px;
+    font-weight: bold;
+}
+.search-result-item .search-result-item-description{
+    font-size: 14px;
+}
+.search-result-item .search-result-item-price{
+    font-size: 14px;
+    font-weight: bold;
+}
+.search-result-item .search-result-item-image{
+    max-width: 100px;
+}

@@ -1,0 +1,12 @@
+.userDetail{
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    padding-left: 100px !important;
+}
+.userDetail .label{
+    margin-right: 20px;
+}
+.userDetail span{
+    font-size: 18px;
+}
